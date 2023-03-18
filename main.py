@@ -38,9 +38,6 @@ def main():
     # place y axis to 30mm
     pdf.set_y(30)
     
-    # reomve the first line of input string
-    input_strings = input_strings[1:]
-
     for s in input_strings:
         for c in s:
             # auto split the string to fit the page, max string number in one line is 40
